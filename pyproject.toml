@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "v1"
+version = "1"
+description = "fastapiwith postgres"
+authors = ["negmeme2001 <mohamedahmednegm811@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+fastapi = "^0.70.0"
+pydantic = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
